@@ -1,0 +1,12 @@
+on: push
+
+jobs:
+  job1:
+    runs-on: centos-latest
+    steps:
+    - run: pwd
+    - run: ls
+  job2:
+    runs-on: windows-latest
+    step:
+    - run: node --version
