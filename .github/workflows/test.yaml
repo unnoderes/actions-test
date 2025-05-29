@@ -8,5 +8,5 @@ jobs:
     - run: ls
   job2:
     runs-on: windows-latest
-    step:
+    steps:
     - run: node --version
