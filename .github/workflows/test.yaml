@@ -6,7 +6,7 @@ permissions:
 
 jobs:
   npm-build:
-    name: Build Node.js Project
+    name: npm-build 工作
     runs-on: ubuntu-latest
     
     steps:
