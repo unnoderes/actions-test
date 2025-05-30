@@ -1,7 +1,7 @@
 name: 打包 React 项目
 on: push
 
-parmissions:
+permissions:
   contents: write
 
 jobs:
